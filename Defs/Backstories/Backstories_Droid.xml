@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.BackstoryDef>
+		<defName>Grey_MaidDroid</defName>
+		<title>Maid droid</title>
+		<titleShort>Maidbot</titleShort>
+		<baseDescription>[PAWN_nameDef] is a colony crafted Maid droid. They are designed for more delicate work.</baseDescription>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ChjDroid</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+    	</workDisables>
+	</AlienRace.BackstoryDef>
+</Defs>

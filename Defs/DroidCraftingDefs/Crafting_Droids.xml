@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Androids.DroidCraftingDef>
+		<defName>Android_MaidDroid</defName>
+		<label>Maid Droid</label>
+		<orderID>2</orderID>
+		<costList>
+			<Steel>225</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<timeCost>15000</timeCost>
+		<pawnKind>GreyMaidDroidColonist</pawnKind>
+	</Androids.DroidCraftingDef>
+</Defs>
