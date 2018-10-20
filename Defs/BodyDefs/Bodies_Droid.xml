@@ -308,18 +308,8 @@
 					</parts>
 				</li>
 				<li>
-					<def>Reactor</def>
+					<def>Battery</def>
 					<coverage>0.06</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>FluidReprocessor</def>
-					<coverage>0.04</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>FluidReprocessor</def>
-					<coverage>0.04</coverage>
 					<depth>Inside</depth>
 				</li>
 			</parts>

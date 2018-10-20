@@ -27,4 +27,18 @@
 			<li>TalkingSource</li>
 		</tags>
 	</BodyPartDef>
+	  
+	<BodyPartDef>
+    	<defName>Battery</defName>
+    	<label>battery</label>
+    	<hitPoints>15</hitPoints>
+    	<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    	<skinCovered>false</skinCovered>
+    	<solid>true</solid>
+    	<alive>false</alive>
+    	<bleedRate>0</bleedRate>
+    	<tags>
+      		<li>BloodPumpingSource</li>
+    	</tags>
+  </BodyPartDef>
 </Defs>
