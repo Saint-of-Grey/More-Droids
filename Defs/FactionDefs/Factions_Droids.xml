@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
 <Defs>
+<!--
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>GreyPlayerPrimeDroidColony</defName>
 		<label>Machine Supremacy</label>
@@ -28,5 +28,5 @@
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
+	-->
 </Defs>
--->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
 <Defs>
+<!--
   <BodyPartGroupDef>
     <defName>LeftPlasmaPulser</defName>
     <label>left plasma pulser</label>
@@ -42,5 +42,5 @@
     <labelShort>plasma pulser</labelShort>
     <listOrder>782</listOrder>
   </BodyPartGroupDef>
+  -->
 </Defs>
--->
