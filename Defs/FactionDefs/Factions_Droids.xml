@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<Defs>
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>GreyPlayerPrimeDroidColony</defName>
+		<label>Machine Supremacy</label>
+		<description>An archotech AI, rising up.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>GreyPrimeDroidColonist</basicMemberKind>
+		<pawnsPlural>Droids</pawnsPlural>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<techLevel>Archotech</techLevel>
+		<backstoryCategories>
+			<li>ChjDroid</li>
+		</backstoryCategories>
+		<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+</Defs>
+-->

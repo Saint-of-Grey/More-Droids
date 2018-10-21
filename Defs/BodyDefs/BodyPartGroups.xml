@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<Defs>
+  <BodyPartGroupDef>
+    <defName>LeftPlasmaPulser</defName>
+    <label>left plasma pulser</label>
+    <labelShort>plasma pulser</labelShort>
+    <listOrder>790</listOrder>
+  </BodyPartGroupDef>
+  
+   <BodyPartGroupDef>
+    <defName>RightPlasmaPulser</defName>
+    <label>right plasma pulser</label>
+    <labelShort>plasma pulser</labelShort>
+    <listOrder>780</listOrder>
+  </BodyPartGroupDef>
+  
+   <BodyPartGroupDef>
+    <defName>UpperLeftPlasmaPulser</defName>
+    <label>upper left plasma pulser</label>
+    <labelShort>plasma pulser</labelShort>
+    <listOrder>791</listOrder>
+  </BodyPartGroupDef>
+  
+   <BodyPartGroupDef>
+    <defName>UpperRightPlasmaPulser</defName>
+    <label>upper right plasma pulser</label>
+    <labelShort>plasma pulser</labelShort>
+    <listOrder>781</listOrder>
+  </BodyPartGroupDef>
+  
+  <BodyPartGroupDef>
+    <defName>LowerLeftPlasmaPulser</defName>
+    <label>lower left plasma pulser</label>
+    <labelShort>plasma pulser</labelShort>
+    <listOrder>792</listOrder>
+  </BodyPartGroupDef>
+  
+   <BodyPartGroupDef>
+    <defName>LowerRightPlasmaPulser</defName>
+    <label>lower right plasma pulser</label>
+    <labelShort>plasma pulser</labelShort>
+    <listOrder>782</listOrder>
+  </BodyPartGroupDef>
+</Defs>
+-->
