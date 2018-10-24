@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--
 	<FactionDef ParentName="PlayerFactionBase">
-		<defName>GreyPlayerPrimeDroidColony</defName>
+		<defName>GreyPlayerCuratorDroidColony</defName>
 		<label>Machine Supremacy</label>
-		<description>An archotech AI, rising up.</description>
+		<description>Some exteremely lost curator droids attempting to carry out old orders.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>GreyPrimeDroidColonist</basicMemberKind>
+		<basicMemberKind>GreyPrimeCuratorColonist</basicMemberKind>
 		<pawnsPlural>Droids</pawnsPlural>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -28,5 +27,4 @@
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
-	-->
 </Defs>

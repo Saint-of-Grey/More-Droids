@@ -18,4 +18,17 @@
 			<li>Artistic</li>
     	</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>Grey_CuratorDroid</defName>
+		<title>Curator droid</title>
+		<titleShort>Curator</titleShort>
+		<baseDescription>[PAWN_nameDef] is a colony crafted Curator droid. They are intended to act as supervisors for autonomous operations.\n\nThey are technically capable of anything (even research and art) but they aren't very good at anything (especially research and art).</baseDescription>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ChjDroid</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
 </Defs>

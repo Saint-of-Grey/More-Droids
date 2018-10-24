@@ -309,7 +309,7 @@
 				</li>
 				<li>
 					<def>Battery</def>
-					<coverage>0.06</coverage>
+					<coverage>0.02</coverage>
 					<depth>Inside</depth>
 				</li>
 			</parts>

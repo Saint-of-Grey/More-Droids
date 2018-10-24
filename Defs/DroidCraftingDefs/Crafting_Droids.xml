@@ -11,4 +11,16 @@
 		<timeCost>15000</timeCost>
 		<pawnKind>GreyMaidDroidColonist</pawnKind>
 	</Androids.DroidCraftingDef>
+
+	<Androids.DroidCraftingDef>
+		<defName>Android_CuratorDroid</defName>
+		<label>Curator Droid</label>
+		<orderID>3</orderID>
+		<costList>
+			<Steel>225</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<timeCost>15000</timeCost>
+		<pawnKind>GreyCuratorDroidColonist</pawnKind>
+	</Androids.DroidCraftingDef>
 </Defs>

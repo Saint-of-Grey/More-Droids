@@ -27,4 +27,31 @@
 		</weaponMoney>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	</PawnKindDef>
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>GreyCuratorDroidColonist</defName>
+		<label>curator droid colonist</label>
+		<race>GreyCuratorDroid</race>
+		<defaultFactionType>GreyPrimeCuratorColonist</defaultFactionType>
+		<backstoryCategories>
+			<li>ChjDroid</li>
+		</backstoryCategories>
+		<chemicalAddictionChance>0.00</chemicalAddictionChance>
+		<apparelTags>
+			<li>Spacer</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>NonNeolithicOnlyMelee</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>0</min>
+			<max>0</max>
+		</weaponMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	</PawnKindDef>
 </Defs>

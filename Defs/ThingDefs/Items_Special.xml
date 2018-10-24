@@ -40,4 +40,45 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>GreyCuratorDroidAssemblyKit</defName>
+		<label>curator droid assembly kit</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>A kit containing a disassembled Curator droid with all the tools required to assemble it.</description>
+		<graphicData>
+			<texPath>Things/Item/CuratorDroidAssemblyKit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1065</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>60.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Assemble Droid</useLabel>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="Androids.CompProperties_SpawnPawn">
+				<compClass>Androids.CompUseEffect_SpawnDroid</compClass>
+				<pawnKind>GreyCuratorDroidColonist</pawnKind>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>
