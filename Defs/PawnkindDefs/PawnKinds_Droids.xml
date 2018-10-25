@@ -32,7 +32,7 @@
 		<defName>GreyCuratorDroidColonist</defName>
 		<label>curator droid colonist</label>
 		<race>GreyCuratorDroid</race>
-		<defaultFactionType>GreyCuratorDroidColonist</defaultFactionType>
+		<defaultFactionType>GreyPlayerCuratorDroidColony</defaultFactionType>
 		<backstoryCategories>
 			<li>ChjDroid</li>
 		</backstoryCategories>

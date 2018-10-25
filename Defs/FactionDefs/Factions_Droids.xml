@@ -2,7 +2,7 @@
 <Defs>
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>GreyPlayerCuratorDroidColony</defName>
-		<label>Machine Supremacy</label>
+		<label>Droid Collective</label>
 		<description>Some exteremely lost curator droids attempting to carry out old orders.</description>
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>GreyCuratorDroidColonist</basicMemberKind>
