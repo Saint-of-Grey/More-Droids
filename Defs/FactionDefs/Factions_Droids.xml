@@ -5,7 +5,7 @@
 		<label>Machine Supremacy</label>
 		<description>Some exteremely lost curator droids attempting to carry out old orders.</description>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>GreyPrimeCuratorColonist</basicMemberKind>
+		<basicMemberKind>GreyCuratorDroidColonist</basicMemberKind>
 		<pawnsPlural>Droids</pawnsPlural>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
