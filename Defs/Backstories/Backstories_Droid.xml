@@ -31,4 +31,69 @@
 			<li>ChjDroid</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>Grey_LightBattleDroid</defName>
+		<title>Light battle droid</title>
+		<titleShort>Killbot</titleShort>
+		<baseDescription>[PAWN_nameDef] is still using placeholder assets. Pity him.</baseDescription>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ChjDroid</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Caring</li>
+			<li>ManualSkilled</li>
+			<li>Hauling</li>
+    	</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>Grey_MediumBattleDroid</defName>
+		<title>Light battle droid</title>
+		<titleShort>Murderbot</titleShort>
+		<baseDescription>[PAWN_nameDef] is still using placeholder assets. Pity him.</baseDescription>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ChjDroid</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Caring</li>
+			<li>ManualSkilled</li>
+    	</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>Grey_HeavyBattleDroid</defName>
+		<title>Heavy battle droid</title>
+		<titleShort>Deathbot</titleShort>
+		<baseDescription>[PAWN_nameDef] is still using placeholder assets. Pity him.</baseDescription>
+		<bodyTypeMale>Hulk</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>ChjDroid</li>
+		</spawnCategories>
+		<workDisables>
+        	<li>Intellectual</li>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Caring</li>
+			<li>ManualSkilled</li>
+			<li>Cleaning</li>
+    	</workDisables>
+	</AlienRace.BackstoryDef>
 </Defs>
