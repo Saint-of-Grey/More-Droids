@@ -272,6 +272,7 @@
 	<BodyPartDef>
 		<defName>MechanicalUpperThorax</defName>
 		<label>upper thorax</label>
+		<hitPoints>30</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
 		<solid>true</solid>
