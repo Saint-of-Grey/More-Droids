@@ -25,6 +25,7 @@
 				<partsToAffect>
 					<li>MechanicalUpperThorax</li>
 					<li>MechanicalLowerThorax</li>
+					<li>MechanicalThorax</li>
 				</partsToAffect>
 			</li>
 
