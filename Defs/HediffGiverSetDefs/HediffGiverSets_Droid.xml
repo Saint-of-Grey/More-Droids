@@ -43,7 +43,9 @@
 				<chanceToContract>0.333</chanceToContract>
 				<partsToAffect>
 					<li>MechanicalHand</li>
+					<li>MechanicalArm</li>
 					<li>BetterMechanicalFoot</li>
+					<li>MechanicalLeg</li>
 					<li>MechanicalShoulderMotor</li>
 					<li>MechanicalElbowMotor</li>
 					<li>MechanicalMotorLeg</li>
