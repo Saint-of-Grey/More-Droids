@@ -1385,7 +1385,7 @@
 		</statBases>
 		<tools>
 			<li>
-				<label>left fist</label>
+				<label>left power fist</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -1402,7 +1402,7 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>right fist</label>
+				<label>right power fist</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
