@@ -311,7 +311,7 @@
 		<label>upper arm framework</label>
 		<hitPoints>25</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>0</skinCovered>
+		<skinCovered>false</skinCovered>
 		<solid>true</solid>
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
@@ -325,7 +325,7 @@
 		<label>lower arm framework</label>
 		<hitPoints>20</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>0</skinCovered>
+		<skinCovered>false</skinCovered>
 		<solid>true</solid>
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
@@ -339,7 +339,7 @@
 		<label>upper leg framework</label>
 		<hitPoints>25</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>0</skinCovered>
+		<skinCovered>false</skinCovered>
 		<solid>true</solid>
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
@@ -353,7 +353,7 @@
 		<label>lower leg framework</label>
 		<hitPoints>25</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>0</skinCovered>
+		<skinCovered>false</skinCovered>
 		<solid>true</solid>
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
