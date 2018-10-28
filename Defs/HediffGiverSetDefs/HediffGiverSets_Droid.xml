@@ -23,8 +23,6 @@
 				<potencyToIncreasePerDay>0.06</potencyToIncreasePerDay>
 				<chanceToContract>0.4</chanceToContract>
 				<partsToAffect>
-					<li>MechanicalUpperThorax</li>
-					<li>MechanicalLowerThorax</li>
 					<li>MechanicalThorax</li>
 				</partsToAffect>
 			</li>
@@ -47,10 +45,6 @@
 					<li>MechanicalArm</li>
 					<li>BetterMechanicalFoot</li>
 					<li>MechanicalLeg</li>
-					<li>MechanicalShoulderMotor</li>
-					<li>MechanicalElbowMotor</li>
-					<li>MechanicalMotorLeg</li>
-					<li>MechanicalMotorKnee</li>
 				</partsToAffect>
 			</li>
 		</hediffGivers>

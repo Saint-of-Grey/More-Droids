@@ -296,7 +296,7 @@
 		<label>shoulder framework</label>
 		<hitPoints>25</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>0</skinCovered>
+		<skinCovered>false</skinCovered>
 		<solid>true</solid>
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
