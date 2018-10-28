@@ -12,6 +12,39 @@
 			</groups>
 			<parts>
 				<li>
+					<def>MechanicalRibcage</def>
+					<coverage>0.036</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>MechanicalSternum</def>
+					<coverage>0.015</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>MechanicalPelvis</def>
+					<coverage>0.025</coverage>
+					<height>Bottom</height>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>MechanicalSpine</def>
+					<coverage>0.025</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
 					<def>MechanicalNeck</def>
 					<coverage>0.075</coverage>
 					<height>Top</height>
@@ -118,6 +151,16 @@
 					</groups>
 					<parts>
 						<li>
+							<def>MechanicalClavicle</def>
+							<customLabel>left shoulder framework</customLabel>
+							<coverage>0.09</coverage>
+							<height>Top</height>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
 							<def>MechanicalArm</def>
 							<customLabel>left arm</customLabel>
 							<coverage>0.77</coverage>
@@ -125,6 +168,24 @@
 								<li>Arms</li>
 							</groups>
 							<parts>
+								<li>
+									<def>MechanicalHumerus</def>
+									<customLabel>left upper arm framework</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Arms</li>
+									</groups>
+								</li>
+								<li>
+									<def>MechanicalRadius</def>
+									<customLabel>left lower arm framework</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Arms</li>
+									</groups>
+								</li>
 								<li>
 									<def>MechanicalHand</def>
 									<customLabel>left hand</customLabel>
@@ -194,6 +255,16 @@
 					</groups>
 					<parts>
 						<li>
+							<def>MechanicalClavicle</def>
+							<customLabel>right shoulder framework</customLabel>
+							<coverage>0.09</coverage>
+							<height>Top</height>
+							<depth>Inside</depth>
+							<groups>
+								<li>Torso</li>
+							</groups>
+						</li>
+						<li>
 							<def>MechanicalArm</def>
 							<customLabel>right arm</customLabel>
 							<coverage>0.77</coverage>
@@ -201,6 +272,24 @@
 								<li>Arms</li>
 							</groups>
 							<parts>
+								<li>
+									<def>MechanicalHumerus</def>
+									<customLabel>right upper arm framework</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Arms</li>
+									</groups>
+								</li>
+								<li>
+									<def>MechanicalRadius</def>
+									<customLabel>right lower arm framework</customLabel>
+									<coverage>0.1</coverage>
+									<depth>Inside</depth>
+									<groups>
+										<li>Arms</li>
+									</groups>
+								</li>
 								<li>
 									<def>MechanicalHand</def>
 									<customLabel>right hand</customLabel>
@@ -279,6 +368,24 @@
 					</groups>
 					<parts>
 						<li>
+							<def>MechanicalFemur</def>
+							<customLabel>left upper leg framework</customLabel>
+							<coverage>0.1</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Legs</li>
+							</groups>
+						</li>
+						<li>
+							<def>MechanicalTibia</def>
+							<customLabel>left lower leg framework</customLabel>
+							<coverage>0.1</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Legs</li>
+							</groups>
+						</li>
+						<li>
 							<def>BetterMechanicalFoot</def>
 							<customLabel>left foot</customLabel>
 							<coverage>0.1</coverage>
@@ -340,6 +447,24 @@
 					</groups>
 					<parts>
 						<li>
+							<def>MechanicalFemur</def>
+							<customLabel>right upper leg framework</customLabel>
+							<coverage>0.1</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Legs</li>
+							</groups>
+						</li>
+						<li>
+							<def>MechanicalTibia</def>
+							<customLabel>right lower leg framework</customLabel>
+							<coverage>0.1</coverage>
+							<depth>Inside</depth>
+							<groups>
+								<li>Legs</li>
+							</groups>
+						</li>
+						<li>
 							<def>BetterMechanicalFoot</def>
 							<customLabel>right foot</customLabel>
 							<coverage>0.1</coverage>
@@ -391,15 +516,10 @@
 						</li>
 					</parts>
 				</li>
-				<li>
-					<def>Battery</def>
-					<coverage>0.01</coverage>
-					<depth>Inside</depth>
-				</li>
 			</parts>
 		</corePart>
 	</BodyDef>
-
+<!--
 	<BodyDef>
 		<defName>GreyBattleDroid</defName>
 		<label>battle droid</label>
@@ -585,53 +705,6 @@
 									</parts>
 								</li>
 							</parts>
-							<!--
-							<def>MechanicalArm</def>
-							<customLabel>left arm</customLabel>
-							<coverage>0.85</coverage>
-							<parts>
-								<li>
-									<def>MechanicalHand</def>
-									<customLabel>left hand</customLabel>
-									<coverage>0.2</coverage>
-									<height>Bottom</height>
-										<parts>
-											<li>
-												<def>MechanicalFinger</def>
-												<customLabel>left pinky</customLabel>
-												<coverage>0.15</coverage>
-												<groups>
-													<li>LeftHand</li>
-												</groups>
-											</li>
-											<li>
-												<def>MechanicalFinger</def>
-												<customLabel>left middle finger</customLabel>
-												<coverage>0.15</coverage>
-												<groups>
-													<li>LeftHand</li>
-												</groups>
-											</li>
-											<li>
-												<def>MechanicalFinger</def>
-												<customLabel>left index finger</customLabel>
-												<coverage>0.15</coverage>
-												<groups>
-													<li>LeftHand</li>
-												</groups>
-											</li>
-											<li>
-												<def>MechanicalFinger</def>
-												<customLabel>left thumb</customLabel>
-												<coverage>0.15</coverage>
-												<groups>
-													<li>LeftHand</li>
-												</groups>
-											</li>
-										</parts>
-								</li>
-							</parts>
-							-->
 						</li>
 					</parts>
 				</li>
@@ -715,53 +788,6 @@
 									</parts>
 								</li>
 							</parts>
-							<!--
-							<def>MechanicalArm</def>
-							<customLabel>right arm</customLabel>
-							<coverage>0.85</coverage>
-							<parts>
-								<li>
-									<def>MechanicalHand</def>
-									<customLabel>right hand</customLabel>
-									<coverage>0.2</coverage>
-									<height>Bottom</height>
-									<parts>
-										<li>
-											<def>MechanicalFinger</def>
-											<customLabel>right pinky</customLabel>
-											<coverage>0.15</coverage>
-											<groups>
-												<li>RightHand</li>
-											</groups>
-										</li>
-										<li>
-											<def>MechanicalFinger</def>
-											<customLabel>right middle finger</customLabel>
-											<coverage>0.15</coverage>
-											<groups>
-												<li>RightHand</li>
-											</groups>
-										</li>
-										<li>
-											<def>MechanicalFinger</def>
-											<customLabel>right index finger</customLabel>
-											<coverage>0.15</coverage>
-											<groups>
-												<li>RightHand</li>
-											</groups>
-										</li>
-										<li>
-											<def>MechanicalFinger</def>
-											<customLabel>right thumb</customLabel>
-											<coverage>0.15</coverage>
-											<groups>
-												<li>RightHand</li>
-											</groups>
-										</li>
-									</parts>
-								</li>
-							</parts>
-							-->
 						</li>
 					</parts>
 				</li>
@@ -951,4 +977,6 @@
 			</parts>
 		</corePart>
 	</BodyDef>
+	-->
+
 </Defs>

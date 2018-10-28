@@ -117,7 +117,7 @@
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
 	</BodyPartDef>
--->
+
 	<BodyPartDef>
 		<defName>MechanicalFingerPlating</defName>
 		<label>finger plating</label>
@@ -184,7 +184,7 @@
 			<li>MovingLimbSegment</li>
 		</tags>
 	</BodyPartDef>
-<!--
+
 	<BodyPartDef>
 		<defName>MechanicalLimbMotorPlating</defName>
 		<label>limb motor plating</label>
@@ -195,7 +195,7 @@
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
 	</BodyPartDef>
--->
+
 	<BodyPartDef>
 		<defName>MechanicalLimbSegment</defName>
 		<label>limb segment</label>
@@ -206,7 +206,7 @@
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
 	</BodyPartDef>
-<!--
+
 	<BodyPartDef>
 		<defName>MechanicalLimbSegmentPlating</defName>
 		<label>limb segment plating</label>
@@ -268,7 +268,7 @@
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
 	</BodyPartDef>
--->
+
 	<BodyPartDef>
 		<defName>MechanicalUpperThorax</defName>
 		<label>upper thorax</label>
@@ -289,6 +289,140 @@
 		<solid>true</solid>
 		<alive>false</alive>
 		<bleedRate>0</bleedRate>
+	</BodyPartDef>
+-->
+	<BodyPartDef>
+		<defName>MechanicalClavicle</defName>
+		<label>shoulder framework</label>
+		<hitPoints>25</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>0</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbSegment</li>
+		</tags>
+		<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalHumerus</defName>
+		<label>upper arm framework</label>
+		<hitPoints>25</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>0</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalRadius</defName>
+		<label>lower arm framework</label>
+		<hitPoints>20</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>0</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalFemur</defName>
+		<label>upper leg framework</label>
+		<hitPoints>25</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>0</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalTibia</defName>
+		<label>lower leg framework</label>
+		<hitPoints>25</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>0</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalRibcage</defName>
+		<label>chest framework</label>
+		<hitPoints>30</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<!--
+		<tags>
+			<li>BreathingSourceCage</li>
+		</tags>
+		-->
+		<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalSternum</defName>
+		<label>chest bracing</label>
+		<hitPoints>20</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<!--
+		<tags>
+			<li>BreathingSourceCage</li>
+		</tags>
+		-->
+		<destroyableByDamage>false</destroyableByDamage>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalSpine</defName>
+		<label>nexus</label>
+		<hitPoints>25</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
+		<tags>
+			<li>Spine</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalPelvis</defName>
+		<label>midsection</label>
+		<hitPoints>25</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>Pelvis</li>
+		</tags>
+		<destroyableByDamage>false</destroyableByDamage>
 	</BodyPartDef>
 
 </Defs>

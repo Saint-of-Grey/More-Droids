@@ -793,7 +793,7 @@
 		</alienRace>
 		<statBases>
 			<MarketValue>500</MarketValue>
-			<MoveSpeed>5.21</MoveSpeed>
+			<MoveSpeed>5.2</MoveSpeed>
 			<Flammability>0.0</Flammability>
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>500</ComfyTemperatureMax>
@@ -806,10 +806,10 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.36</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
-			<CarryingCapacity>75</CarryingCapacity>
+			<CarryingCapacity>30</CarryingCapacity>
 			<Mass>60.0</Mass>
 		</statBases>
 		<tools>
@@ -868,7 +868,7 @@
 			<baseHungerRate>0</baseHungerRate>
 			<leatherDef>Leather_ChJAndroid</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
-			<body>GreyBattleDroid</body>
+			<body>ChJDroid</body>
 			<bloodDef>ChjFilthCoolant</bloodDef>
 			<deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
 			<baseBodySize>0.8</baseBodySize>
@@ -1073,7 +1073,7 @@
 		</alienRace>
 		<statBases>
 			<MarketValue>850</MarketValue>
-			<MoveSpeed>4.61</MoveSpeed>
+			<MoveSpeed>4.6</MoveSpeed>
 			<Flammability>0.0</Flammability>
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>500</ComfyTemperatureMax>
@@ -1086,8 +1086,8 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 			<CarryingCapacity>75</CarryingCapacity>
 			<Mass>60.0</Mass>
@@ -1148,7 +1148,7 @@
 			<baseHungerRate>0</baseHungerRate>
 			<leatherDef>Leather_ChJAndroid</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
-			<body>GreyBattleDroid</body>
+			<body>ChJDroid</body>
 			<bloodDef>ChjFilthCoolant</bloodDef>
 			<deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
 			<baseBodySize>1.00</baseBodySize>
@@ -1364,7 +1364,7 @@
 		</alienRace>
 		<statBases>
 			<MarketValue>1900</MarketValue>
-			<MoveSpeed>4.01</MoveSpeed>
+			<MoveSpeed>4</MoveSpeed>
 			<Flammability>0.0</Flammability>
 			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>500</ComfyTemperatureMax>
@@ -1377,15 +1377,15 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 			<CarryingCapacity>150</CarryingCapacity>
 			<Mass>55.0</Mass>
 		</statBases>
 		<tools>
 			<li>
-				<label>left bladed fist</label>
+				<label>left fist</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -1402,7 +1402,7 @@
 				</surpriseAttack>
 			</li>
 			<li>
-				<label>right bladed fist</label>
+				<label>right fist</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -1439,7 +1439,7 @@
 			<baseHungerRate>0</baseHungerRate>
 			<leatherDef>Leather_ChJAndroid</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
-			<body>GreyBattleDroid</body>
+			<body>ChJDroid</body>
 			<bloodDef>ChjFilthCoolant</bloodDef>
 			<deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
 			<baseBodySize>2.00</baseBodySize>
