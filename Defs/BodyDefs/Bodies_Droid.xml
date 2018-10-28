@@ -404,7 +404,7 @@
 		<defName>GreyBattleDroid</defName>
 		<label>battle droid</label>
 		<corePart>
-			<def>MechanicalThorax</def>
+			<def>MechanicalUpperThorax</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<groups>
@@ -774,7 +774,7 @@
 					</groups>
 					<parts>
 						<li>
-							<def>MechanicalLimbMotorLeg</def>
+							<def>MechanicalMotorLeg</def>
 							<customLabel>left leg motor</customLabel>
 							<coverage>0.3</coverage>
 							<height>Bottom</height>
@@ -854,8 +854,8 @@
 							</parts>
 						</li>
 						<li>
-							<def>MechanicalLimbMotorLeg</def>
-							<customLabel>right leg</customLabel>
+							<def>MechanicalMotorLeg</def>
+							<customLabel>right leg motor</customLabel>
 							<coverage>0.3</coverage>
 							<height>Bottom</height>
 							<parts>
