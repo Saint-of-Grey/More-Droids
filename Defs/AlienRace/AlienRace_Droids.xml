@@ -806,11 +806,11 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<ArmorRating_Sharp>0.36</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
-			<CarryingCapacity>30</CarryingCapacity>
-			<Mass>60.0</Mass>
+			<CarryingCapacity>25</CarryingCapacity>
+			<Mass>20.0</Mass>
 		</statBases>
 		<tools>
 			<li>
@@ -871,8 +871,8 @@
 			<body>ChJDroid</body>
 			<bloodDef>ChjFilthCoolant</bloodDef>
 			<deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
-			<baseBodySize>0.8</baseBodySize>
-			<baseHealthScale>1</baseHealthScale>
+			<baseBodySize>0.75</baseBodySize>
+			<baseHealthScale>0.75</baseHealthScale>
 			<foodType>None</foodType>
 			<useMeatFrom>ChjAndroid</useMeatFrom>
 			<gestationPeriodDays>1</gestationPeriodDays>
@@ -1086,8 +1086,8 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 			<CarryingCapacity>75</CarryingCapacity>
 			<Mass>60.0</Mass>
@@ -1377,11 +1377,11 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<ArmorRating_Sharp>1.08</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.44</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 			<CarryingCapacity>150</CarryingCapacity>
-			<Mass>55.0</Mass>
+			<Mass>60.0</Mass>
 		</statBases>
 		<tools>
 			<li>
@@ -1390,7 +1390,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>20</power>
-				<cooldownTime>1.6</cooldownTime>
+				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
@@ -1407,7 +1407,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>20</power>
-				<cooldownTime>1.6</cooldownTime>
+				<cooldownTime>1.8</cooldownTime>
 				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
