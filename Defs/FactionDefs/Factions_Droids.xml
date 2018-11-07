@@ -10,7 +10,7 @@
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<techLevel>Archotech</techLevel>
+		<techLevel>Industrial</techLevel>
 		<backstoryCategories>
 			<li>ChjDroid</li>
 		</backstoryCategories>
