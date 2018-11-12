@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!-- Gonna try something a little cleaner than a overwrite 
 	<HediffGiverSetDef>
 		<defName>ChjDroid</defName>
 		<hediffGivers>
-			<!-- Responsive and special -->
+		-->
+			<!-- Responsive and special --><!-- 
 			<li Class="Androids.HediffGiver_Machine">
 				<hediff>ChjCoolantLoss</hediff>
 			</li>
-
-			<!-- Wear and Tear -->
+-->
+			<!-- Wear and Tear --><!--
 			<li Class="Androids.HediffGiver_MachineWearAndTear">
 				<hediff>ChjAndroidDroidCorruptMemory</hediff>
 				<potencyToIncreasePerDay>0.05</potencyToIncreasePerDay>
@@ -49,4 +51,5 @@
 			</li>
 		</hediffGivers>
 	</HediffGiverSetDef>
+	-->
 </Defs>

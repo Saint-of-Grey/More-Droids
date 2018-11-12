@@ -268,7 +268,7 @@
 			<baseHungerRate>0</baseHungerRate>
 			<leatherDef>Leather_ChJAndroid</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
-			<body>ChJDroid</body>
+			<body>GreyDroid</body>
 			<bloodDef>ChjFilthCoolant</bloodDef>
 			<deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
 			<baseBodySize>1</baseBodySize>
@@ -594,7 +594,7 @@
 			<baseHungerRate>0</baseHungerRate>
 			<leatherDef>Leather_ChJAndroid</leatherDef>
 			<nameCategory>HumanStandard</nameCategory>
-			<body>ChJDroid</body>
+			<body>GreyDroid</body>
 			<bloodDef>ChjFilthCoolant</bloodDef>
 			<deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
 			<baseBodySize>1</baseBodySize>
@@ -675,7 +675,7 @@
 			</li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
-
+<!--
 	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>GreyLightBattleDroid</defName>
 		<label>Light battle droid</label>
@@ -688,8 +688,8 @@
 			</li>
 		</comps>
 		<alienRace>
-			<generalSettings>
-				<!--maxDamageForSocialfight>6</maxDamageForSocialfight-->
+			<generalSettings>-->
+				<!--maxDamageForSocialfight>6</maxDamageForSocialfight--><!--
 				<maleGenderProbability>1</maleGenderProbability>
 				<immuneToAge>true</immuneToAge>
 				<disallowedTraits>
@@ -928,12 +928,12 @@
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</butcherProducts>
 		<modExtensions>
-			<li Class="Androids.MechanicalPawnProperties">
-				<!-- If true the pawn will not lose any skill due to decay. -->
-				<noSkillLoss>true</noSkillLoss>
-				<!-- Can this Droid be social? -->
-				<canSocialize>false</canSocialize>
-				<!-- Do the colony care if they die? -->
+			<li Class="Androids.MechanicalPawnProperties">-->
+				<!-- If true the pawn will not lose any skill due to decay. --><!--
+				<noSkillLoss>true</noSkillLoss>-->
+				<!-- Can this Droid be social? --><!--
+				<canSocialize>false</canSocialize>-->
+				<!-- Do the colony care if they die? --><!--
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 			</li>
 			<li Class="Androids.DroidSpawnProperties">
@@ -967,8 +967,8 @@
 			</li>
 		</comps>
 		<alienRace>
-			<generalSettings>
-				<!--maxDamageForSocialfight>6</maxDamageForSocialfight-->
+			<generalSettings>-->
+				<!--maxDamageForSocialfight>6</maxDamageForSocialfight--><!--
 				<maleGenderProbability>1</maleGenderProbability>
 				<immuneToAge>true</immuneToAge>
 				<disallowedTraits>
@@ -1208,12 +1208,12 @@
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</butcherProducts>
 		<modExtensions>
-			<li Class="Androids.MechanicalPawnProperties">
-				<!-- If true the pawn will not lose any skill due to decay. -->
-				<noSkillLoss>true</noSkillLoss>
-				<!-- Can this Droid be social? -->
-				<canSocialize>false</canSocialize>
-				<!-- Do the colony care if they die? -->
+			<li Class="Androids.MechanicalPawnProperties">-->
+				<!-- If true the pawn will not lose any skill due to decay. --><!--
+				<noSkillLoss>true</noSkillLoss>-->
+				<!-- Can this Droid be social? --><!--
+				<canSocialize>false</canSocialize>-->
+				<!-- Do the colony care if they die? --><!--
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 			</li>
 			<li Class="Androids.DroidSpawnProperties">
@@ -1255,8 +1255,8 @@
 					<li>SmokepopBelt</li>
 				</whiteApparelList>
 			</raceRestriction>
-			<generalSettings>
-				<!--maxDamageForSocialfight>6</maxDamageForSocialfight-->
+			<generalSettings>-->
+				<!--maxDamageForSocialfight>6</maxDamageForSocialfight--><!--
 				<maleGenderProbability>1</maleGenderProbability>
 				<immuneToAge>true</immuneToAge>
 				<disallowedTraits>
@@ -1518,5 +1518,5 @@
 			</li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
-
+-->
 </Defs>

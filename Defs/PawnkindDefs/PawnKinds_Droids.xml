@@ -54,7 +54,7 @@
 		</weaponMoney>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	</PawnKindDef>
-
+<!--
 	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>GreyLightBattleDroidColonist</defName>
 		<label>light battle droid colonist</label>
@@ -135,4 +135,5 @@
 		</weaponMoney>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	</PawnKindDef>
+	-->
 </Defs>
