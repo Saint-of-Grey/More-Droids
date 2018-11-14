@@ -72,29 +72,7 @@
 			<li>HearingSource</li>
 		</tags>
 	</BodyPartDef>
-<!--
-	<BodyPartDef>
-		<defName>MechanicalThoraxPlating</defName>
-		<label>thorax plating</label>
-		<hitPoints>40</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechancialHeadPlating</defName>
-		<label>head plating</label>
-		<hitPoints>30</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
--->	
+	
 	<BodyPartDef>
 		<defName>ArtificialBrainCasing</defName>
 		<label>artifical brain casing</label>
@@ -106,118 +84,7 @@
 		<bleedRate>0</bleedRate>
 		<destroyableByDamage>false</destroyableByDamage>
 	</BodyPartDef>
-<!--
-	<BodyPartDef>
-		<defName>MechanicalHandPlating</defName>
-		<label>hand plating</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
 
-	<BodyPartDef>
-		<defName>MechanicalFingerPlating</defName>
-		<label>finger plating</label>
-		<hitPoints>10</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalShoulderMotor</defName>
-		<label>shoulder motor</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-		<tags>
-			<li>ManipulationLimbSegment</li>
-		</tags>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalElbowMotor</defName>
-		<label>elbow motor</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-		<tags>
-			<li>ManipulationLimbCore</li>
-		</tags>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalMotorLeg</defName>
-		<label>limb motor</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-		<tags>
-			<li>MovingLimbCore</li>
-		</tags>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalMotorKnee</defName>
-		<label>limb motor</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-		<tags>
-			<li>MovingLimbSegment</li>
-		</tags>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalLimbMotorPlating</defName>
-		<label>limb motor plating</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalLimbSegment</defName>
-		<label>limb segment</label>
-		<hitPoints>20</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalLimbSegmentPlating</defName>
-		<label>limb segment plating</label>
-		<hitPoints>30</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
--->
 	<BodyPartDef>
 		<defName>BetterMechanicalFoot</defName>
 		<label>foot</label>
@@ -232,18 +99,7 @@
 			<li>MovingLimbSegment</li>
 		</tags>
 	</BodyPartDef>
-<!--
-	<BodyPartDef>
-		<defName>MechanicalFootPlating</defName>
-		<label>foot plating</label>
-		<hitPoints>25</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
--->
+
 	<BodyPartDef>
 		<defName>MechanicalToe</defName>
 		<label>toe</label>
@@ -257,40 +113,7 @@
 			<li>MovingLimbDigit</li>
 		</tags>
 	</BodyPartDef>
-<!--
-	<BodyPartDef>
-		<defName>MechanicalToePlating</defName>
-		<label>toe plating</label>
-		<hitPoints>8</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
 
-	<BodyPartDef>
-		<defName>MechanicalUpperThorax</defName>
-		<label>upper thorax</label>
-		<hitPoints>30</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
-
-	<BodyPartDef>
-		<defName>MechanicalLowerThorax</defName>
-		<label>lower thorax</label>
-		<hitPoints>30</hitPoints>
-		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
-		<skinCovered>false</skinCovered>
-		<solid>true</solid>	
-		<alive>false</alive>
-		<bleedRate>0</bleedRate>
-	</BodyPartDef>
--->
 	<BodyPartDef>
 		<defName>MechanicalClavicle</defName>
 		<label>shoulder framework</label>

@@ -38,15 +38,43 @@
 					<body>GreyDroid</body>
 				</value>
 			</li>
-			<!-- Do I even need this?
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName='ChjBattleDroid']/race</xpath>
-				<value>
-					<body>GreyDroid</body>
-				</value>
-			</li>
-			-->
 		</operations>
 	</Operation>
-	
+
+	<Operation Class = "PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class = "PatchOperationTest">
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers</xpath>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[2]/partsToAffect</xpath>
+				<value>
+					<li>ArtificialBrain</li>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[3]/partsToAffect</xpath>
+				<value>
+					<li>MechanicalThorax</li>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[4]/partsToAffect</xpath>
+				<value>
+					<li>SightSensor</li>
+				</value>
+			</li>
+			<li Class = "PatchOperationAdd">
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[5]/partsToAffect</xpath>
+				<value>
+					<li>MechanicalHand</li>
+					<li>MechanicalArm</li>
+					<li>BetterMechanicalFoot</li>
+					<li>MechanicalLeg</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>
