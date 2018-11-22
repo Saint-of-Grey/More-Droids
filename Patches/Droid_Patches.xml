@@ -48,25 +48,25 @@
 				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers</xpath>
 			</li>
 			<li Class = "PatchOperationAdd">
-				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[2]/partsToAffect</xpath>
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[hediff='ChjAndroidDroidCorruptMemory']/partsToAffect</xpath>
 				<value>
 					<li>ArtificialBrain</li>
 				</value>
 			</li>
 			<li Class = "PatchOperationAdd">
-				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[3]/partsToAffect</xpath>
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[hediff='ChjAndroidDroidFaultySupport']/partsToAffect</xpath>
 				<value>
 					<li>MechanicalThorax</li>
 				</value>
 			</li>
 			<li Class = "PatchOperationAdd">
-				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[4]/partsToAffect</xpath>
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[hediff='ChjAndroidDroidFaultyLightSensor']/partsToAffect</xpath>
 				<value>
 					<li>SightSensor</li>
 				</value>
 			</li>
 			<li Class = "PatchOperationAdd">
-				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[5]/partsToAffect</xpath>
+				<xpath>/Defs/HediffGiverSetDef[defName='ChjDroid']/hediffGivers/li[hediff='ChjAndroidDroidWornOut']/partsToAffect</xpath>
 				<value>
 					<li>MechanicalHand</li>
 					<li>MechanicalArm</li>
