@@ -928,11 +928,11 @@
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</butcherProducts>
 		<modExtensions>
-			<li Class="Androids.MechanicalPawnProperties">-->
+			<li Class="Androids.MechanicalPawnProperties">
 				<!-- If true the pawn will not lose any skill due to decay. -->
-				<noSkillLoss>true</noSkillLoss>-->
+				<noSkillLoss>true</noSkillLoss>
 				<!-- Can this Droid be social? -->
-				<canSocialize>false</canSocialize>-->
+				<canSocialize>false</canSocialize>
 				<!-- Do the colony care if they die? -->
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 			</li>
@@ -1208,11 +1208,11 @@
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</butcherProducts>
 		<modExtensions>
-			<li Class="Androids.MechanicalPawnProperties">-->
+			<li Class="Androids.MechanicalPawnProperties">
 				<!-- If true the pawn will not lose any skill due to decay. -->
-				<noSkillLoss>true</noSkillLoss>-->
+				<noSkillLoss>true</noSkillLoss>
 				<!-- Can this Droid be social? -->
-				<canSocialize>false</canSocialize>-->
+				<canSocialize>false</canSocialize>
 				<!-- Do the colony care if they die? -->
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 			</li>
@@ -1255,7 +1255,7 @@
 					<li>SmokepopBelt</li>
 				</whiteApparelList>
 			</raceRestriction>
-			<generalSettings>-->
+			<generalSettings>
 				<!--maxDamageForSocialfight>6</maxDamageForSocialfight-->
 				<maleGenderProbability>1</maleGenderProbability>
 				<immuneToAge>true</immuneToAge>
