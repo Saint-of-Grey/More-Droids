@@ -77,4 +77,21 @@
 		</operations>
 	</Operation>
 
+	<Operation Class = "PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/Defs/FleshTypeDef[defName='ChJDroid']</xpath>
+			</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/FleshTypeDef[defName='ChJDroid']</xpath>
+				<value>
+					<li Class="RoboticEqaulity.MechanicalCheck">
+						<isMechanical>true</isMechanical>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>

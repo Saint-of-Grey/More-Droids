@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robotic Equality", "Source\Robotic Equality.csproj", "{CF36E485-D4C2-4976-99CD-D3AD17AD4567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patches", "Patches", "{BD427627-37C7-486C-BFA4-EEF5DAC74F5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF36E485-D4C2-4976-99CD-D3AD17AD4567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF36E485-D4C2-4976-99CD-D3AD17AD4567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF36E485-D4C2-4976-99CD-D3AD17AD4567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF36E485-D4C2-4976-99CD-D3AD17AD4567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ACFCEBA-5892-427B-8440-12764B9F127F}
+	EndGlobalSection
+EndGlobal

@@ -45,6 +45,30 @@
 					</groups>
 				</li>
 				<li>
+					<def>Battery</def>
+					<coverage>0.020</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>Coolant Pump</def>
+					<coverage>0.017</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>Coolant Pump</def>
+					<coverage>0.017</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
 					<def>MechanicalNeck</def>
 					<coverage>0.075</coverage>
 					<height>Top</height>

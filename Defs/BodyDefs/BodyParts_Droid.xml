@@ -43,6 +43,20 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
+		<defName>Coolant Pump</defName>
+		<label>coolant pump</label>
+		<hitPoints>15</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+    	<alive>false</alive>
+    	<bleedRate>0</bleedRate>
+    	<tags>
+      		<li>BloodFiltrationSource</li>
+    	</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
 		<defName>BetterMechanicalFinger</defName>
 		<label>finger</label>
 		<hitPoints>8</hitPoints>
