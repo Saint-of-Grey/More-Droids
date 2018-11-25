@@ -44,7 +44,7 @@ namespace RoboticEqaulity
 		}
 		private static void ISaidMakeRoboticDammit(PawnCapacityDef __instance, bool isFlesh , bool isHumanlike, ref string __result)
 		{
-			if (isFlesh && isHumanlike)
+			if (!isFlesh && isHumanlike)
 			{
 				if (!__instance.labelMechanoids.NullOrEmpty())
 				{

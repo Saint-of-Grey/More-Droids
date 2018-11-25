@@ -58,7 +58,7 @@ namespace TranspilerForPawnCapacityDefReporting
 		{
 			if (raceProps.FleshType.HasModExtension<MechanicalCheck>())
 			{
-				return (raceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false);
+				return !(raceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false);
 			}
 			else
 			{
