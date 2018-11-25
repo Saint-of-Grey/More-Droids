@@ -43,7 +43,7 @@
 	</BodyPartDef>
 
 	<BodyPartDef>
-		<defName>Coolant Pump</defName>
+		<defName>CoolantPump</defName>
 		<label>coolant pump</label>
 		<hitPoints>15</hitPoints>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>

@@ -25,6 +25,9 @@ using RoboticEqaulity;
 //then he can place the mod extension on his custom flesh type def, and be done with it
 //transpiler doesn't need any other conditions, just replace that call with another one
 
+// Saint of Grey's comment:
+// Mehni, I want you to know that you are a hero for this.
+
 namespace TranspilerForPawnCapacityDefReporting
 {
 	[StaticConstructorOnStartup]
