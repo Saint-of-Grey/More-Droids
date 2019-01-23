@@ -262,4 +262,44 @@
 		<destroyableByDamage>false</destroyableByDamage>
 	</BodyPartDef>
 
-</Defs>
+	<BodyPartDef>
+		<defName>MechanicalBody</defName>
+		<label>body</label>
+		<hitPoints>40</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalAnimalJaw</defName>
+		<label>jaw</label>
+		<hitPoints>10</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>MechanicalHoof</defName>
+		<label>hoof</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>6</frostbiteVulnerability>
+		<skinCovered>false</skinCovered>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<solid>true</solid>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
+	</BodyPartDef>
+
+	</Defs>

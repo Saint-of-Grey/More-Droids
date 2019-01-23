@@ -287,7 +287,7 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>HumanlikeAdult</def>
+					<def>Droid</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -613,7 +613,7 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>HumanlikeAdult</def>
+					<def>Droid</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -887,7 +887,7 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>HumanlikeAdult</def>
+					<def>Droid</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -1167,7 +1167,7 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>HumanlikeAdult</def>
+					<def>Droid</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
@@ -1458,7 +1458,7 @@
 			</litterSizeCurve>
 			<lifeStageAges>
 				<li>
-					<def>HumanlikeAdult</def>
+					<def>Droid</def>
 					<minAge>0</minAge>
 					<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
 					<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>

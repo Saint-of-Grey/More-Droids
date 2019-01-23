@@ -86,13 +86,23 @@
 							</groups>
 							<parts>
 								<li>
-									<def>ArtificialBrain</def>
-									<coverage>0.05</coverage>
+									<def>ArtificialBrainCasing</def>
+									<coverage>0.18</coverage>
 									<depth>Inside</depth>
 									<groups>
 										<li>UpperHead</li>
 										<li>FullHead</li>
 									</groups>
+									<parts>
+										<li>
+											<def>ArtificialBrain</def>
+											<coverage>0.8</coverage>
+											<groups>
+												<li>UpperHead</li>
+												<li>FullHead</li>
+											</groups>
+										</li>
+									</parts>
 								</li>
 								<li>
 									<def>SightSensor</def>
@@ -543,5 +553,157 @@
 			</parts>
 		</corePart>
 	</BodyDef>
+
+	<BodyDef>
+		<defName>GreyDroidQuadrupedAnimalWithHooves</defName>
+		<label>droid quadruped animal</label>
+		<corePart>
+			<def>Body</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<parts>
+				<li>
+					<def>MechanicalSpine</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Battery</def>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>CoolantPump</def>
+					<customLabel>left coolant pump</customLabel>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>CoolantPump</def>
+					<customLabel>right coolant pump</customLabel>
+					<coverage>0.03</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>MechanicalNeck</def>
+					<coverage>0.22</coverage>
+					<height>Top</height>
+					<parts>
+						<li>
+							<def>MechanicalHead</def>
+							<coverage>0.75</coverage>
+							<groups>
+								<li>HeadAttackTool</li>
+							</groups>
+							<parts>
+								<li>
+									<def>ArtificialBrainCasing</def>
+									<coverage>0.25</coverage>
+									<depth>Inside</depth>
+									<parts>
+										<li>
+											<def>ArtificialBrain</def>
+											<coverage>0.7</coverage>
+											<depth>Inside</depth>
+										</li>
+									</parts>
+								</li>
+								<li>
+									<def>Eye</def>
+									<customLabel>left eye</customLabel>
+									<coverage>0.12</coverage>
+								</li>
+								<li>
+									<def>Eye</def>
+									<customLabel>right eye</customLabel>
+									<coverage>0.12</coverage>
+								</li>
+								<li>
+									<def>BetterHearingSensor</def>
+									<customLabel>left ear</customLabel>
+									<coverage>0.08</coverage>
+								</li>
+								<li>
+									<def>BetterHearingSensor</def>
+									<customLabel>right ear</customLabel>
+									<coverage>0.08</coverage>
+								</li>
+								<li>
+									<def>SmellSensor</def>
+									<coverage>0.1</coverage>
+								</li>
+								<li>
+									<def>MechanicalAnimalJaw</def>
+									<coverage>0.1</coverage>
+                  <groups>
+                    <li>Teeth</li>
+                  </groups>
+								</li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>MechanicalLeg</def>
+					<customLabel>front left leg</customLabel>
+					<coverage>0.07</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>FrontLeftLeg</li>
+					</groups>
+					<parts>
+						<li>
+							<def>MechanicalHoof</def>
+							<customLabel>front left hoof</customLabel>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>MechanicalLeg</def>
+					<customLabel>front right leg</customLabel>
+					<coverage>0.07</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>FrontRightLeg</li>
+					</groups>
+					<parts>
+						<li>
+							<def>MechanicalHoof</def>
+							<customLabel>front right hoof</customLabel>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>MechanicalLeg</def>
+					<customLabel>rear left leg</customLabel>
+					<coverage>0.07</coverage>
+					<height>Bottom</height>
+					<parts>
+						<li>
+							<def>MechanicalHoof</def>
+							<customLabel>rear left hoof</customLabel>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>MechanicalLeg</def>
+					<customLabel>rear right leg</customLabel>
+					<coverage>0.07</coverage>
+					<height>Bottom</height>
+					<parts>
+						<li>
+							<def>MechanicalHoof</def>
+							<customLabel>rear right hoof</customLabel>
+							<coverage>0.15</coverage>
+						</li>
+					</parts>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+
 
 </Defs>

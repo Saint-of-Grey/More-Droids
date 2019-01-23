@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <LifeStageDef>
+        <defName>DroidAnimal</defName>
+        <label>adult</label>
+        <visible>false</visible>
+        <milkable>true</milkable>
+        <shearable>true</shearable>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>Droid</defName>
+        <label>adult</label>
+        <visible>false</visible>
+    </LifeStageDef>
+
+</Defs>

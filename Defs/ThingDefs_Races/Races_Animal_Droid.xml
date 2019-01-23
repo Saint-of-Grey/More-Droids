@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--
+
   <ThingDef ParentName="AnimalThingBase">
     <defName>DroidMuffalo</defName>
     <label>muffabot</label>
@@ -64,7 +64,7 @@
     <comps>
 			<li Class="Androids.CompProperties_EnergyTracker">
 				<canHibernate>false</canHibernate>
-			</li> -->
+			</li>
     <!--I haven't ruled out shearble and milkable muffabots yet. -->
     <!--
       <li Class="CompProperties_Milkable">
@@ -77,11 +77,11 @@
         <shearIntervalDays>25</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
-      --> <!--
+      --> 
     </comps>
     <race>
       <herdAnimal>true</herdAnimal>
-      <body>QuadrupedAnimalWithHooves</body>
+      <body>GreyDroidQuadrupedAnimalWithHooves</body>
       <baseBodySize>2.1</baseBodySize>
       <baseHealthScale>1.75</baseHealthScale>
 			<baseHungerRate>0</baseHungerRate>
@@ -89,24 +89,18 @@
       <useMeatFrom>ChjAndroid</useMeatFrom>
       <leatherDef>Leather_ChJAndroid</leatherDef>
       <bloodDef>ChjFilthCoolant</bloodDef>
-      <gestationPeriodDays>1</gestationPeriodDays>
+      <deathActionWorkerClass>Androids.DeathActionWorker_Droid</deathActionWorkerClass>
+      <!--<gestationPeriodDays>1</gestationPeriodDays>-->
       <wildness>0</wildness>
       <trainability>Advanced</trainability>
       <packAnimal>true</packAnimal>
+      <fleshType>ChJDroid</fleshType>
       <lifeExpectancy>10000</lifeExpectancy>
       <canBePredatorPrey>false</canBePredatorPrey>
       <lifeStageAges>
         <li>
-          <def>AnimalBaby</def>
+          <def>DroidAnimal</def>
           <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.25</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.5</minAge>
           <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
           <soundDeath>Pawn_Muffalo_Death</soundDeath>
           <soundCall>Pawn_Muffalo_Call</soundCall>
@@ -116,9 +110,25 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <hediffGiverSets Inherit="False">
+				<li>ChjAndroidStandard</li>
+				<li>ChjDroid</li>
+			</hediffGiverSets>
     </race>
+    <recipes>
+			<li>AdministerMechSerumHealer</li>
+			<li>ChJAndroidRepairKit</li>
+			<li>ChJAndroidShutDownDroid</li>
+		</recipes>
+    <butcherProducts>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
     <modExtensions>
 			<li Class="Androids.MechanicalPawnProperties"/>
+      <li Class="Androids.DroidSpawnProperties">
+        <gender>Female</gender>
+      </li>
 		</modExtensions>
   </ThingDef>
 
@@ -127,42 +137,7 @@
     <label>muffabot</label>
     <race>DroidMuffalo</race>
     <combatPower>100</combatPower>
-    <ecoSystemWeight>1.1</ecoSystemWeight>
-    <wildGroupSize>
-      <min>3</min>
-      <max>9</max>
-    </wildGroupSize>
     <lifeStages>
-      <li>
-        <label>muffalo calf</label>
-        <labelPlural>muffalo calves</labelPlural>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
-          <drawSize>1.5</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
-          <drawSize>1.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
-          <drawSize>2.25</drawSize>
-          <shadowData>
-            <volume>(0.6, 0.45, 0.45)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
-          <drawSize>2.25</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/Muffalo</texPath>
@@ -179,5 +154,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  -->
+
 </Defs>
