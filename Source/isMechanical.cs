@@ -87,7 +87,7 @@ namespace RoboticEqaulity
 			foreach (var instruction in instructions)
 				if (instruction.operand == AccessTools.Method(typeof(GenClosest), nameof(GenClosest.ClosestThingReachable)))
 				{
-					Log.Message("It did a thing");
+					//Log.Message("It did a thing");
 					yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(RobotPatch), nameof(RobotPatch.ClosestThingReachable)));
 				}
 				else
@@ -103,7 +103,7 @@ namespace RoboticEqaulity
 			Predicate<Thing> noRobotValidator = delegate (Thing t)
 			{
 				Pawn pawn = t as Pawn;
-				Log.Message(pawn.ToString() + " returned as " + (!(pawn.RaceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false)).ToString());
+				//Log.Message(pawn.ToString() + " returned as " + (!(pawn.RaceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false)).ToString());
 				return /*NotARobot(t)*/ !(pawn.RaceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false) && validator(t);
 			};
 			return GenClosest.ClosestThingReachable(root, map, thingReq, peMode, traverseParams, maxDistance, noRobotValidator, null, 0, -1, false, RegionType.Set_Passable, false);
