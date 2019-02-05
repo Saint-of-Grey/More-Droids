@@ -9,6 +9,7 @@ using RimWorld;
 using Verse;
 using Verse.AI;
 using TranspilerForPawnCapacityDefReporting;
+using Androids;
 
 namespace RoboticEqaulity
 {
@@ -27,7 +28,7 @@ namespace RoboticEqaulity
 		static RobotPatch()
         {
             HarmonyInstance harmony = HarmonyInstance.Create(id: "Grey.Robotic.Equality");
-			HarmonyInstance.DEBUG = true;
+			//HarmonyInstance.DEBUG = true;
             harmony.Patch(original: AccessTools.Method(type: typeof(PawnCapacityDef), name: nameof(PawnCapacityDef.GetLabelFor), parameters: new Type[] { typeof(Pawn) }), 
                 prefix: null, postfix: new HarmonyMethod(type: typeof(RobotPatch), name: nameof(MakeRobotic)));
 			harmony.Patch(original: AccessTools.Method(type: typeof(PawnCapacityDef), name: nameof(PawnCapacityDef.GetLabelFor), parameters: new Type[] { typeof(bool), typeof(bool) }), 

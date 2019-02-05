@@ -34,6 +34,13 @@
     <Reference Include="0Harmony">
       <HintPath>E:\Rimworld Mods\net35\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="AlienRace">
+      <HintPath>..\..\..\..\..\workshop\content\294100\839005762\Assemblies\AlienRace.dll</HintPath>
+    </Reference>
+    <Reference Include="Androids">
+      <HintPath>..\..\..\..\..\workshop\content\294100\1541064015\Assemblies\Androids.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
