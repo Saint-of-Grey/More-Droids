@@ -169,6 +169,9 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 				</cannotReceiveThoughts>
+				<canStillReceiveThoughts>
+    				<li>ChJDroidAlways</li>
+				</canStillReceiveThoughts>
 			</thoughtSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
@@ -493,6 +496,9 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 				</cannotReceiveThoughts>
+				<canStillReceiveThoughts>
+    				<li>ChJDroidAlways</li>
+				</canStillReceiveThoughts>				
 			</thoughtSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
@@ -779,6 +785,9 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 				</cannotReceiveThoughts>
+				<canStillReceiveThoughts>
+    				<li>ChJDroidAlways</li>
+				</canStillReceiveThoughts>				
 			</thoughtSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
@@ -1059,6 +1068,9 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 				</cannotReceiveThoughts>
+				<canStillReceiveThoughts>
+    				<li>ChJDroidAlways</li>
+				</canStillReceiveThoughts>
 			</thoughtSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
@@ -1350,6 +1362,9 @@
 					<li>KnowColonistDied</li>
 					<li>PawnWithGoodOpinionDied</li>
 				</cannotReceiveThoughts>
+				<canStillReceiveThoughts>
+    				<li>ChJDroidAlways</li>
+				</canStillReceiveThoughts>
 			</thoughtSettings>
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>

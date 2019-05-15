@@ -36,6 +36,7 @@
     </Reference>
     <Reference Include="AlienRace">
       <HintPath>..\..\..\..\..\workshop\content\294100\839005762\Assemblies\AlienRace.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Androids">
       <HintPath>..\..\..\..\..\workshop\content\294100\1541064015\Assemblies\Androids.dll</HintPath>
@@ -57,8 +58,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BetterDroidSpawnProperties.cs" />
     <Compile Include="CapacityTranspiler.cs" />
-    <Compile Include="isMechanical.cs" />
+    <Compile Include="HarmonyPatches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
