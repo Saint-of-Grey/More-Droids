@@ -57,32 +57,7 @@ namespace RoboticEqaulity
 				}
 			}
 		}
-		//private static IEnumerable<CodeInstruction> PlzDontKidnapRobots(IEnumerable<CodeInstruction> instructions, ILGenerator ilg)
-		//{
-		//	//MethodInfo targetOperand = AccessTools.Property(typeof(Pawn), nameof(Pawn.Downed)).GetGetMethod();
-		//	var instructionList = instructions.ToList();
-		//	for (var i = 0; i < instructionList.Count; i++)
-		//	{
-		//		var instruction = instructionList[i];
-		//		if (instruction.opcode == OpCodes.Brtrue && instructionList[i - 1].operand == AccessTools.Property(typeof(Pawn), nameof(Pawn.Downed)).GetGetMethod())
-		//		{
-		//			Log.Message("It actually ran");
-		//			Label newBreakPoint = ilg.DefineLabel();
-		//			//yield return new CodeInstruction(opcode: instruction.opcode, operand: instruction.operand) { labels = instruction.labels.ListFullCopy() };
-		//			//instruction.labels.Clear();
-		//			yield return new CodeInstruction(opcode: OpCodes.Callvirt, operand: AccessTools.Property(typeof(Pawn), nameof(Pawn.Downed)).GetGetMethod()) /*{ labels = instruction.labels.ListFullCopy() }*/;
-		//			//instruction.labels.Clear();
-		//			yield return new CodeInstruction(opcode: OpCodes.Brtrue, operand: newBreakPoint);
-		//			yield return new CodeInstruction(opcode: OpCodes.Ldc_I4_0);
-		//			yield return new CodeInstruction(opcode: OpCodes.Ret);
-		//			yield return new CodeInstruction(opcode: OpCodes.Ldloc_0) { labels = new List<Label> { newBreakPoint } };
-		//			yield return new CodeInstruction(opcode: OpCodes.Callvirt, operand: AccessTools.Property(typeof(Pawn), nameof(Pawn.RaceProps)).GetGetMethod());
-		//			yield return new CodeInstruction(opcode: OpCodes.Callvirt, operand: AccessTools.Property(typeof(RaceProperties), nameof(RaceProperties.IsFlesh)).GetGetMethod());
-		//			yield return new CodeInstruction(opcode: OpCodes.Brtrue, operand: instruction.operand);
-		//		}
-		//		yield return instruction;
-		//	}
-		//}
+
 		private static IEnumerable<CodeInstruction> PlzDontKidnapRobots(IEnumerable<CodeInstruction> instructions, ILGenerator ilg)
 		{
 			foreach (var instruction in instructions)
@@ -105,7 +80,7 @@ namespace RoboticEqaulity
 			{
 				Pawn pawn = t as Pawn;
 				//Log.Message(pawn.ToString() + " returned as " + (!(pawn.RaceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false)).ToString());
-				return /*NotARobot(t)*/ !(pawn.RaceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false) && validator(t);
+				return !(pawn.RaceProps.FleshType.GetModExtension<MechanicalCheck>()?.isMechanical ?? false) && validator(t);
 			};
 			return GenClosest.ClosestThingReachable(root, map, thingReq, peMode, traverseParams, maxDistance, noRobotValidator, null, 0, -1, false, RegionType.Set_Passable, false);
 		}
