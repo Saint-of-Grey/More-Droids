@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 using System.Reflection;
@@ -35,7 +35,7 @@ namespace TranspilerForPawnCapacityDefReporting
 	{
 		static Class1()
 		{
-			HarmonyInstance harmony = HarmonyInstance.Create("mehni.rimworld.TranspilerForPawnCapacityDefReporting");
+			Harmony harmony = new Harmony("mehni.rimworld.TranspilerForPawnCapacityDefReporting");
 			harmony.Patch(AccessTools.Method(typeof(HealthCardUtility), "DrawOverviewTab"),
 				transpiler: new HarmonyMethod(typeof(Class1), nameof(TranspilerForPawnCapacityDefReporting)));
 		}

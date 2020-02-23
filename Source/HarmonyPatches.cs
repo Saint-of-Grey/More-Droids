@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Text;
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using Verse;
 using Verse.AI;
@@ -27,14 +27,14 @@ namespace RoboticEqaulity
     {
 		static RobotPatch()
         {
-            HarmonyInstance harmony = HarmonyInstance.Create(id: "Grey.Robotic.Equality");
+            Harmony harmony = new Harmony(id: "Grey.Robotic.Equality");
 			//HarmonyInstance.DEBUG = true;
             harmony.Patch(original: AccessTools.Method(type: typeof(PawnCapacityDef), name: nameof(PawnCapacityDef.GetLabelFor), parameters: new Type[] { typeof(Pawn) }), 
-                prefix: null, postfix: new HarmonyMethod(type: typeof(RobotPatch), name: nameof(MakeRobotic)));
+                prefix: null, postfix: new HarmonyMethod(methodType: typeof(RobotPatch), methodName: nameof(MakeRobotic)));
 			harmony.Patch(original: AccessTools.Method(type: typeof(PawnCapacityDef), name: nameof(PawnCapacityDef.GetLabelFor), parameters: new Type[] { typeof(bool), typeof(bool) }), 
-				prefix: null, postfix: new HarmonyMethod(type: typeof(RobotPatch), name: nameof(ISaidMakeRoboticDammit)));
+				prefix: null, postfix: new HarmonyMethod(methodType: typeof(RobotPatch), methodName: nameof(ISaidMakeRoboticDammit)));
 			harmony.Patch(original: AccessTools.Method(type: typeof(KidnapAIUtility), name: nameof(KidnapAIUtility.TryFindGoodKidnapVictim)/*, parameters: new Type[] { typeof(Pawn), typeof(float), typeof(Pawn), typeof(List<Thing>) }*/),
-				prefix: null, postfix: null, transpiler: new HarmonyMethod(type: typeof(RobotPatch), name: nameof(PlzDontKidnapRobots)));
+				prefix: null, postfix: null, transpiler: new HarmonyMethod(methodType: typeof(RobotPatch), methodName: nameof(PlzDontKidnapRobots)));
 		}
 
         private static void MakeRobotic(PawnCapacityDef __instance, Pawn pawn, ref string __result)
